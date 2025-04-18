@@ -9,7 +9,7 @@ export default function Home() {
         alignItems: "center",
       }}
     >
-      <Text>Welcome to Client-Tell</Text>
+      <Text>Welcome Home!</Text>
     </View>
   );
 }
