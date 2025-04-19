@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import { Text, TextInput, Button, View } from "react-native";
 
-const Login = () => {
+export default function Login() {
   return (
-    <View>
+    <View style={{
+      flex: 1,
+      justifyContent: "center",
+      alignItems: "center",
+    }}>
       <Text>Login</Text>
     </View>
     
-  )
+  );
 }
 
-export default Login
