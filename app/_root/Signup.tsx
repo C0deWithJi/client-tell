@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { Text, View } from 'react-native';
 
-const Signup = () => {
+export default function Signup() {
   return (
-    <div>Signup</div>
-  )
+    <View style={{
+      flex: 1,
+      justifyContent: "center",
+      alignItems: "center",
+    }}>
+      <Text>Signup</Text>
+    </View>
+    
+  );
 }
-
-export default Signup
